@@ -1,0 +1,38 @@
+{
+  "name": "@simbo/generator-readme",
+  "version": "0.1.0",
+  "description": "A simple yeoman generator for my usual readme.",
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.de)",
+  "repository": "simbo/generator-readme",
+  "homepage": "https://github.com/simbo/generator-readme#readme",
+  "bugs": "https://github.com/simbo/generator-readme/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "readme"
+  ],
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "merge-options": "^1.0.1",
+    "yeoman-generator": "^2.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.0.0",
+    "yeoman-assert": "^3.1.1",
+    "yeoman-test": "^1.7.2"
+  }
+}
