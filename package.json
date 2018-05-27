@@ -21,7 +21,7 @@
     "README.md"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=7.6"
   },
   "scripts": {
     "test": "jest"
